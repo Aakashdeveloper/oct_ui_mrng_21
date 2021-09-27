@@ -95,3 +95,8 @@ html> main tags
 head> contains all  script, title, meta, css
 (thing website use internally)
 body> content which is visible to the customers
+
+
+//////////////
+Inline > start in same line (span , a)
+Block > start from new line (p , h1)
