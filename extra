@@ -102,3 +102,34 @@ Inline > start in same line (span , a)
 Block > start from new line (p , h1)
 
 SEO > Search Engine optimisation
+
+////css////
+> inline css > we write inside the html tag
+> style Tag > we write css in head tag
+> styleSheet >  we write css in separate file
+
+inline > styletag > stylesheet
+
+inline{
+    color:red;
+    font-size:30px
+}
+
+styletag{
+    color:orange;
+    text-align:center
+}
+
+stylesheet{
+    color:green;
+    text-align:right;
+    font-size:40px;
+    font-weight:bold
+}
+
+{
+  color:red;
+  font-size:30px;  
+  text-align:center;
+  font-weight:bold;
+}
