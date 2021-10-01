@@ -133,3 +133,8 @@ stylesheet{
   text-align:center;
   font-weight:bold;
 }
+
+//////////Target Element//////////////
+tagName > h1,p,a
+id > for unique (#)
+class > for common (.)

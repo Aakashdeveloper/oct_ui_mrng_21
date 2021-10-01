@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color:rgb(29, 111, 126);
+    background-color:lightgray
+}
+#mainHeading{
+    background-color:rgb(12, 0, 0);
+    color:#fff;
+    text-align: center;
+}
+
+.card{
+    background-color:rgb(73, 27, 41);
+    height:400px;
+    width:23%;
+    float:left;
+    margin:1%
+}
+.color1{
+    background-color:rgb(103, 122, 14)
+}
+.color2{
+    background-color:#b06e39;
+}
+.color3{
+    background-color:#5a5626;
+}
+.imageContainer{
+    text-align: center;
+    margin-top:4%;
+    color:white
+}
