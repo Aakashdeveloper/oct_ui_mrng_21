@@ -7,7 +7,7 @@ body{
     background-image:url('food-wallpaper.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-size: 100% 500px;
+    background-size: 100% 500px
 }
 
 
@@ -46,4 +46,90 @@ body{
     margin-top: 1%;
     margin-left: -3%;
     position: absolute;
+}
+
+#heading{
+    font-size:35px;
+    margin: auto;
+    background-color:white;
+    width:30%;
+    margin-top: 2%;
+    color:#ec893f;
+}
+
+#dropDown{
+    height:60px;
+    width:45%;
+    margin-top: 3%;
+    margin-left: 27%;
+}
+
+select{
+    height:60px;
+    width:42%;
+}
+#secondSelect{
+    width:54%;
+    margin-left: 2%;
+}
+
+#quicksearch{
+    height:500px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+#QuickHeading{
+    font-size:30px;
+    font-weight: bold;
+    display:block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ec893f;
+    margin-left: 2%;
+}
+
+#QuickSubHeading{
+    font-size:20px;
+    display:block;
+    line-height:2;
+    color:gray;
+    margin-left: 2%;
+}
+.mainTileContainer{
+    
+}
+.tileContainer{
+    height:200px;
+    width:30%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    box-shadow: 10px 20px 10px #c1dbea;
+}
+
+.tileComponent1{
+    width:52%;
+    float: left;
+}
+
+.tileComponent1 > img{
+    height:200px;
+    width:100%;
+}
+
+.tileComponent2{
+    width:42%;
+    float: left;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+.componentHeading{
+    color:#ec893f;
+    font-size: 25px;
+}
+.componentSubHeading{
+    color: #343536;
+    font-size: 18px;
 }

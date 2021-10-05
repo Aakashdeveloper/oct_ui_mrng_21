@@ -138,3 +138,9 @@ stylesheet{
 tagName > h1,p,a
 id > for unique (#)
 class > for common (.)
+
+solid
+dotted
+grove
+double
+dashed
