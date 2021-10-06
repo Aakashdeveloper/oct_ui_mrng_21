@@ -96,9 +96,6 @@ select{
     color:gray;
     margin-left: 2%;
 }
-.mainTileContainer{
-    
-}
 .tileContainer{
     height:200px;
     width:30%;
@@ -106,6 +103,13 @@ select{
     margin-left: 2%;
     margin-top: 2%;
     box-shadow: 10px 20px 10px #c1dbea;
+}
+
+.tileContainer:hover{
+    /*transform: scale(1.1);
+    transform: rotate(180deg)
+    transform: skewY(40deg)*/
+    transform: scale(1.1)
 }
 
 .tileComponent1{
@@ -132,4 +136,116 @@ select{
 .componentSubHeading{
     color: #343536;
     font-size: 18px;
+}
+
+@media screen and (max-width: 1600px){
+    body{
+        background-color: rgb(171, 241, 171);
+    }
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        background-color: rgb(171, 241, 235);
+    }
+}
+
+@media screen and (max-width: 1200px){
+    body{
+        background-color: rgb(245, 188, 247);
+    }
+    .social{
+        margin-left: 66%;
+    }
+    #heading {
+        width: 37%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    body{
+        background-color: rgb(247, 205, 188);
+    }
+    .tileContainer {
+        width: 47%;
+    }
+    .social{
+        margin-left: 60%;
+    }
+    #heading {
+        width: 46%;
+    }
+    #logo>span {
+        margin-left: -5%;
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    body{
+        background-color: rgb(170, 157, 243);
+    }
+    .tileContainer {
+        width: 100%;
+    }
+    #logo>span {
+        margin-left: -6%;
+    }
+    #heading {
+        width: 58%;
+    }
+    .social{
+        margin-left: 50%;
+    }
+    #QuickHeading{
+        color:#f3ede9;
+    }
+    
+    #QuickSubHeading{
+        color:white;
+    }
+    .componentSubHeading{
+        color: #f3ede9;
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: rgb(188, 247, 210);
+    }
+    #QuickHeading{
+        color:#ec893f;
+    }
+    
+    #QuickSubHeading{
+        color:gray;
+    }
+    .componentSubHeading{
+        color:gray;
+        font-size: 18px;
+    }
+    #logo{
+        margin-left:36%
+    }
+    #logo>span {
+        margin-left: -9%;
+    }
+    #heading {
+        width: 70%;
+        font-size: 28px;
+    }
+    .social{
+        margin-left: 29%;
+    }
+    select{
+        width:100%
+    }
+    #secondSelect {
+        width: 117%;
+        margin-left: -8%;
+        margin-top: 5%;
+    }
 }
