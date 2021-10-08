@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+}
+header{
+    background-color: red;
+    height: 80px;
+    width:100%
+}
+
+#main{
+    width:80%;
+    margin-left:10%;
+    margin-top:3%;
+}
+
+#filter{
+    height:600px;
+    width:25%;
+    border:2px solid black;
+    float: left;
+}
+
+#content_main{
+    height:600px;
+    width:68%;
+    float: left;
+    margin-left:2%;
+    margin-top:-1%
+}
+
+.content{
+    height:250px;
+    width:100%;
+    border:2px solid black;
+    margin-top:2%
+}

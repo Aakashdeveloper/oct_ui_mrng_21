@@ -39,7 +39,27 @@ body{
     margin-top: 4%;
     text-align: center;
     font-size: 100px;
+    animation: movelogo 20s infinite
 }
+@keyframes movelogo {
+    0%{margin-left: 45%}
+    25%{margin-left: 20%}
+    50%{margin-left: 60%}
+    75%{margin-left: 40%}
+    100%{margin-left: 45%}
+}
+/*
+20%5
+0-4s
+4s-8s
+4s
+4s
+4s
+
+#logo:hover{
+    margin-left :0%;
+    transition: margin-top 10s;
+}*/
 
 #logo>span{
     color:#ec893f;
