@@ -4,16 +4,73 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link href="first.css" rel="stylesheet" type="text/css"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
     </head>
     <body>
         <div class="container">
-            <hr/>
+            <!--
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand">
+                                Developer Funnel
+                            </a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            -->
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button class="navbar-toggle" data-toggle="collapse" data-target="#dfnav">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand">
+                            Developer Funnel
+                        </a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="dfnav">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
             <div class="jumbotron">
                 <h1>Bootstrap</h1>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
                 </p>
             </div>
+            <span class="label label-danger" style="font-size:20px">
+                Drinks <span class="glyphicon glyphicon-glass"></span>
+            </span> &nbsp;&nbsp;
+            <span class="label label-info" style="font-size:20px">
+                Wifi <span class="fa fa-wifi"></span>
+            </span>
+            <hr/>
+            <img src="manali.jpeg" class="img-circle"/>
+            <img src="manali.jpeg" class="img-thumbnail"/>
+            <hr/>
+            <span class="glyphicon glyphicon-trash" style="font-size:30px;color:red"></span>
+            <span class="glyphicon glyphicon-edit" style="font-size:30px;color:green"></span>
+            <div style="text-align: right;">
+                <span class="glyphicon glyphicon-print"></span>
+            </div>
+            
+            <span class="glyphicon glyphicon-plane"></span>
+            <span class="glyphicon glyphicon-glass"></span>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-amazon"></i>
             <hr/>
                 <button>Click</button>
                 <button class="btn">Click</button>
@@ -23,6 +80,83 @@
                 <button class="btn btn-danger">Click</button>
                 <button class="btn btn-info">Click</button>
             <hr/>
+            
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h4>Students</h4>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h4>Students</h4>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h4>Students</h4>
+                </div>
+                <div class="panel-body">
+                </div>
+            </div>
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" href="#employee">
+                            Employee
+                        </a>
+                    </h4>
+                </div>
+                <div id="employee" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum></p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h4>Students</h4>
+                </div>
+                <div class="panel-body">
+                   
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Roll No</th>
+                                <th>Name</th>
+                                <th>Class</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>John</td>
+                                <td>Ui</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Ankit</td>
+                                <td>Angular</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Nikita</td>
+                                <td>React</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum></p>
+                </div>
+            </div>
+            <!--
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4sNfipi19go"></iframe>
+            </div>
+            -->
+            <img src="food-wallpaper.png" class="img-responsive"/>
             <div class="row">
                 <div class="col-md-3"  id="first"></div>
                 <div class="col-md-3"  id="second"></div>
@@ -39,32 +173,7 @@
                 <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12"  id="five"></div>
                 <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12"  id="six"></div>
             </div>
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Roll No</th>
-                        <th>Name</th>
-                        <th>Class</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>John</td>
-                        <td>Ui</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Ankit</td>
-                        <td>Angular</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Nikita</td>
-                        <td>React</td>
-                    </tr>
-                </tbody>
-            </table>
+            
         </div>
     </body>
 </html>
