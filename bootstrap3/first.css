@@ -32,3 +32,8 @@
     background-color:#af42ca !important;
     border-color:#9212b3 !important;
 }
+
+.carouselImage{
+    height:400px !important;
+    width:100%
+}
