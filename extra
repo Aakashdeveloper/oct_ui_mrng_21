@@ -13,11 +13,11 @@ https://github.com/Aakashdeveloper/oct_ui_mrng_21
 > Bootstrap3
 > Bootstrap4
 > Bootstrap5
-////////////////////
 > DataTypes
 > variable
-> alert console prompt
 > Operations
+> alert console prompt confirm
+///////////////////////////
 > String literals
 > String Operations
 > Math
@@ -53,6 +53,7 @@ https://github.com/Aakashdeveloper/oct_ui_mrng_21
 > Es6
     > classes
 > Prototypes
+--------------
 > DoM
 > Calc
 > dark/light mode
