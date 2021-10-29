@@ -1,0 +1,27 @@
+// First Time from new folder
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/uimrng.git
+git push -u origin master
+
+// Next Every Time from same folder
+git add .
+git commit -m "first commit"
+git push
+
+git status
+
+git pull
+
+
+////branches
+git checkout -b branchname
+
+git branch
+
+git branch branchname
+
+
+
+git clone https://github.com/Aakashdeveloper/uimrng
