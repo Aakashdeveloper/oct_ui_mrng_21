@@ -101,3 +101,64 @@ city.splice(4,2,'Indore')
 ['Pune', 'Amsterdam']
 city
 (6) ['Boston', 'Mumbai', 'London', 'Dubai', 'Indore', 'Venice']
+
+
+
+var city =  ['Boston', 'Mumbai', 'London', 'Dubai', 'Indore', 'Venice']
+undefined
+city.indexOf('London')
+2
+city.indexOf('Indore')
+4
+city.indexOf('Delhi')
+-1
+city.indexOf('Amsterdam')
+-1
+
+
+var city =  ['Boston', 'Mumbai', 'London', 'Dubai', 'Indore', 'Venice']
+city.splice(city.indexOf('Dubai'),1)
+
+var a = ['a','b','c',5];
+var b = [1,'e',4,'f']
+a+b
+'a,b,c,51,e,4,f'
+
+a.concat(b)
+['a', 'b', 'c', 5, 1, 'e', 4, 'f']
+
+
+var a = "hiii"
+var b = [1,2,3]
+undefined
+Array.isArray(a)
+false
+Array.isArray(b)
+true
+
+var city =  ['Boston', 'Mumbai', 'London', 'Dubai', 'Indore', 'Venice']
+city.sort()
+(6) ['Boston', 'Dubai', 'Indore', 'London', 'Mumbai', 'Venice']
+city.reverse()
+(6) ['Venice', 'Mumbai', 'London', 'Indore', 'Dubai', 'Boston']
+
+
+var city =  ['Boston',5, 'london', 3, 'Indore', true,"paris",false,9,"Keev",'surat']
+city.sort()
+[3, 5, 9, 'Boston', 'Indore', 'Keev', false, 'london', 'paris', 'surat', true]
+
+var city =  ['Boston', 'Mumbai', 'London',['Red',['BMW','AUDI','MERC'],'Yellow','Orange','Green'], 'Dubai', 'Indore', 'Venice']
+city[2]
+'London'
+city[3][0]
+'Red'
+city[3][1]
+(3) ['BMW', 'AUDI', 'MERC']
+city[3][2]
+'Yellow'
+city[3][1][0]
+'BMW'
+city.flat()
+(11) ['Boston', 'Mumbai', 'London', 'Red', Array(3), 'Yellow', 'Orange', 'Green', 'Dubai', 'Indore', 'Venice']
+city.flat(2)
+(13) ['Boston', 'Mumbai', 'London', 'Red', 'BMW', 'AUDI', 'MERC', 'Yellow', 'Orange', 'Green', 'Dubai', 'Indore', 'Venice']
