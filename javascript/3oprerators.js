@@ -98,3 +98,9 @@ true
 
 truthy > any number expect 0 weather +ve or -ve , true , any string
 falsy > 0, false, null, undefined
+
+
+isNaN("hii")
+true
+isNaN(7676)
+false
