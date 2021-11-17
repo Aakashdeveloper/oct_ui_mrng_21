@@ -43,15 +43,13 @@ https://github.com/Aakashdeveloper/oct_ui_mrng_21
 > regex
 > JSON
 > object 
-
-///////////////////////////
 > Es6
     > Transpile
     > import export
 > package.JSON
 > npm
-
 > this
+///////////////////////////
 > Es6
     > classes
 > Prototypes
@@ -174,3 +172,13 @@ md > 768px;
 lg > 992px;
 xl > 1200px
 xxl > 1400px
+
+npm > node package manager
+//////////
+step to create package.JSON
+///////
+* Nodejs must be installed
+> go inside the using cmd/terminal
+> npm init -y
+
+npm i @babel/core @babel/preset-env @babel/register

@@ -1,0 +1,17 @@
+{
+  "name": "25exportimport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "first.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0"
+  }
+}
