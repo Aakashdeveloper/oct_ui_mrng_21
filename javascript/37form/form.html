@@ -1,0 +1,76 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel='stylesheet' href='form.css'/>
+        <script src="form.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <hr/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">EmployeeId</label>
+                            <input class="form-control" readonly
+                            name="uid" id="uid"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input class="form-control" placeholder="firstname"
+                            name="fname" id="firstname" onblur="validateFname()"/>
+                            <p id="fout"></p>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="mail">Email</label>
+                                <input class="form-control" placeholder="a@a.com"
+                                name="email" id="mail" oninput="validateEmail()"/>
+                                <p id="eout"></p>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="password">Password</label>
+                                <input class="form-control"
+                                name="pwd" id="password" type="password" 
+                                oninput="validatePwd()"/>
+
+                                <span class="glyphicon glyphicon-eye-open"
+                                onClick="showPassword()"></span>
+                                <p id="pout"></p>
+                                <div id="ppout"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="password">confirm Password</label>
+                                <input class="form-control"
+                                name="cpwd" id="cpassword" type="password" oninput="validateCPwd()"/>
+                                <p id="cpout"></p>
+                            </div>
+                            <span id="cityOut"></span>
+                            <div class="form-group col-md-6">
+                                <label for="city">City</label>
+                                <select class="form-control" name="city" id="city" onChange="getCity()">
+                                    <option>Delhi</option>
+                                    <option>Mumbai</option>
+                                    <option>Pune</option>
+                                    <option>Gurgaon</option>
+                                </select>
+                            </div>
+                        </div>
+                        <br/>
+                        <button type="submit" class="btn btn-success">
+                            Submit
+                        </button>
+                    </form>
+                </div>  
+            </div>
+        </div>
+        <script>
+            window.onload=getId()
+        </script>
+    </body>
+</html>
