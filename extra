@@ -63,15 +63,13 @@ https://github.com/Aakashdeveloper/oct_ui_mrng_21
 > Chart
 > Form validation
 > Event
-///////////////////////////
-> Dynamic DropDown
 > Call/Apply
-
+> Dynamic DropDown
 > set interval
 > set timeout
+///////////////////////////
 > Progress bar
 > debouncing
-
 > Baisc Jquery
 > DataTables
 
@@ -184,3 +182,5 @@ step to create package.JSON
 > npm init -y
 
 npm i @babel/core @babel/preset-env @babel/register
+
+npx json-server --watch data.json --port 8190
