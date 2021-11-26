@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <style>
+            #main{
+                height: 300px;
+                width: 300px;
+                background-color:teal;
+                position:absolute;
+            }
+        </style>
+        <script>
+            $(document).ready(() => {
+                $('button').click(() => {
+                    var div = $('div');
+                    div.animate({width:'200px',height:'200px',borderRadius:'50%'},3000)
+                    div.animate({left:'200px',top:'0px',},3000)
+                    div.animate({left:'400px',top:'500px',},3000)
+                    div.animate({left:'600px',top:'0px',},3000)
+                    div.animate({left:'800px',top:'500px',},3000)
+                    div.animate({left:'1000px',top:'0px',},3000)
+                    div.animate({left:'0px',top:'0px',},3000)
+                })
+                $('#stop').click(() => {
+                    $('div').finish()
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <button>Click Me</button>
+        <button id="stop">Stop</button>
+        <div id="main"></div>
+    </body>
+</html>

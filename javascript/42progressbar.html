@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+      var a= 0;
+      var b = 0;
+      function main(){
+        var i=0;
+        var out = setInterval(progress, 1000);
+        function progress(){
+            if(b>80){
+                clearInterval(out)
+            }else{
+                a = a+20;
+                b = Number(i)+Number(a)
+                if(b==0 || b == undefined){
+                    document.getElementsByClassName("progress-bar")[0].style.width="0%";
+                    document.getElementById("data").innerText="0% Complete";
+                }else if(b==20){
+                    document.getElementsByClassName("progress-bar")[0].style.width="20%";
+                    document.getElementById("data").innerText="20% Complete";
+                }else if(b==40){
+                    document.getElementsByClassName("progress-bar")[0].style.width="40%";
+                    document.getElementById("data").innerText="40% Complete";
+                }else if(b==60){
+                    document.getElementsByClassName("progress-bar")[0].style.width="60%";
+                    document.getElementById("data").innerText="60% Complete";
+                }
+                else if(b==80){
+                    document.getElementsByClassName("progress-bar")[0].style.width="80%";
+                    document.getElementById("data").innerText="80% Complete";
+                }else if(b==100){
+                    document.getElementsByClassName("progress-bar")[0].style.width="100%";
+                    document.getElementById("data").innerText="100% Complete";
+                }
+            }
+        }
+      }
+      window.onload = main()
+  </script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Animated Progress Bar</h2>
+  <p>The .active class animates the progress bar:</p> 
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped active" style="width:00%">
+      <span id="data"></span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
